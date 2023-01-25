@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap');
-@import url('https://fonts.googleapis.com/css2? family= Roboto:wght@300 & display=swap');
-
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Roboto:wght@300 & display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&family=Roboto+Mono:ital@1&family=Roboto:wght@500&display=swap');
 *{
     box-sizing: border-box;
     margin: 0;
@@ -141,7 +141,7 @@ body{
   position: absolute;
   top: 10%;
   left: 20%;
-  font-family: 'Roboto Mono';
+  font-family: 'Roboto Slab';
   font-style: normal;
   font-weight: 400;
   font-size: 60px;
@@ -210,6 +210,9 @@ body{
   margin-top: 20%;
 }
 /* ******************** Nos services ************************* */
+#NosServices{
+  margin-bottom: 5%;
+}
 
 .Automobile, .Moto, .MRP, .Voyage, .Civile{
   display: flex;
@@ -273,12 +276,33 @@ body{
   color: #FFFFFF;
   background-color: #242EBB;
   border:none;
-  background: rgba(36, 46, 187, 0.82);
-  border-radius: 15px;
-  margin-left: 10px;
+  margin-left:10px ;
   margin-top: 10%;
+  border-radius: 15px;
 }
 
 
 /* ******************** Partenaires ************************* */
+.partenaire
+{
+
+  display: flex;
+  width: 912px;
+  height: 100px;
+  left: 50%;
+  left: 18%;
+  margin: 0 30px;
+  position: relative;
+}
+.partenaire div
+{
+  width: 188px;
+  height: 87px;
+  margin-left: 15px;
+}
+.partenaire div img
+{
+  width: 100%;
+  height: 100%;
+}
 /* ******************** Footer ************************* */
