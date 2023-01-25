@@ -259,10 +259,25 @@ body{
   margin-left: 10px;
   background: rgba(88, 163, 196, 0.76);
   border: none;
-  margin-top: 20%;
+  margin-top: 15%;
 }
 
-
+.btnsavoir{
+  width: 209px;
+  height: 51px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #FFFFFF;
+  background-color: #242EBB;
+  border:none;
+  background: rgba(36, 46, 187, 0.82);
+  border-radius: 15px;
+  margin-left: 10px;
+  margin-top: 10%;
+}
 
 
 /* ******************** Partenaires ************************* */
